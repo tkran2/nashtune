@@ -1,0 +1,46 @@
+{
+ "label": "gpt-5-mini_sample_leduc_A",
+ "kind": "openai",
+ "model": "gpt-5-mini",
+ "mode": "sample",
+ "game": "leduc",
+ "template": "A",
+ "samples": 4,
+ "max_completion_tokens": 2000,
+ "reasoning_effort": "low",
+ "expected_output_tokens": 400,
+ "price_per_mtok": {
+  "input": 0.25,
+  "output": 2.0
+ },
+ "backend": "openai",
+ "top_logprobs": 20,
+ "infosets": 288,
+ "exploitability_ma": 709.6354166666667,
+ "seat0_ma": 704.4977425886667,
+ "seat1_ma": 714.7730907446668,
+ "value": -0.21614583333333323,
+ "best_vs_p1": 0.6291666666666668,
+ "best_vs_p0": 0.7901041666666667,
+ "game_value": -0.085606424078,
+ "uniform_exploitability_ma": 2373.611111111111,
+ "extraction_seconds": 5331.460955858231,
+ "nashtune_version": "0.1.0",
+ "finished_utc": "2026-10-16T13:05:32Z",
+ "totals": {
+  "valid": 1150,
+  "invalid": 2,
+  "truncated": 2,
+  "fallback_uniform": 0
+ },
+ "usage": {
+  "requests": 1152,
+  "cache_hits": 0,
+  "prompt_tokens": 247848,
+  "completion_tokens": 590865,
+  "reasoning_tokens": 579360,
+  "total_tokens": 838713,
+  "retries": 0,
+  "adjustments": []
+ }
+}

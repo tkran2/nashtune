@@ -1,0 +1,13 @@
+infoset,actions,probabilities,equilibrium_probabilities,legal_mass,notes
+0:J:-:,kb,0.999964 0.000036,0.7998 0.2002,0.999999,"{""fallback_uniform"": 0, ""legal_mass"": 0.9999992716617436, ""prefix_mass"": 0.0}"
+1:Q:-:k,kb,0.005617 0.994383,0.9998 0.0002,0.999999,"{""fallback_uniform"": 0, ""legal_mass"": 0.9999988596892097, ""prefix_mass"": 0.0}"
+0:J:-:kb,fc,0.993753 0.006247,1.0000 0.0000,0.999994,"{""fallback_uniform"": 0, ""legal_mass"": 0.9999944642042969, ""prefix_mass"": 1.9689788963439836e-07}"
+1:Q:-:b,fc,0.007479 0.992521,0.6663 0.3337,0.999997,"{""fallback_uniform"": 0, ""legal_mass"": 0.9999965834943579, ""prefix_mass"": 1.5055366653804114e-07}"
+1:K:-:k,kb,0.000230 0.999770,0.0001 0.9999,0.999998,"{""fallback_uniform"": 0, ""legal_mass"": 0.9999982175975102, ""prefix_mass"": 0.0}"
+1:K:-:b,fc,0.000000 1.000000,0.0000 1.0000,1,"{""fallback_uniform"": 0, ""legal_mass"": 0.999999743190125, ""prefix_mass"": 2.7103859386327016e-08}"
+0:Q:-:,kb,0.248010 0.751990,0.9994 0.0006,0.999993,"{""fallback_uniform"": 0, ""legal_mass"": 0.9999930692498217, ""prefix_mass"": 0.0}"
+1:J:-:k,kb,0.987568 0.012432,0.6671 0.3329,0.999995,"{""fallback_uniform"": 0, ""legal_mass"": 0.9999951413848733, ""prefix_mass"": 0.0}"
+0:Q:-:kb,fc,0.038883 0.961117,0.4675 0.5325,0.999996,"{""fallback_uniform"": 0, ""legal_mass"": 0.999995994394482, ""prefix_mass"": 2.6914646447451165e-07}"
+1:J:-:b,fc,0.999880 0.000120,1.0000 0.0000,0.999995,"{""fallback_uniform"": 0, ""legal_mass"": 0.9999952781531299, ""prefix_mass"": 9.228907975462983e-08}"
+0:K:-:,kb,0.000000 1.000000,0.4015 0.5985,1,"{""fallback_uniform"": 0, ""legal_mass"": 0.9999999114828027, ""prefix_mass"": 0.0}"
+0:K:-:kb,fc,0.001222 0.998778,0.0000 1.0000,0.999999,"{""fallback_uniform"": 0, ""legal_mass"": 0.9999987922085879, ""prefix_mass"": 9.661548044930012e-08}"

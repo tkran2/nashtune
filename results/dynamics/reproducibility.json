@@ -1,0 +1,29 @@
+{
+ "note": "After an interruption at run 49 of 98, the study was resumed with the final code. These runs were recomputed with the final code and compared with the stored results: every recorded exploitability value matched exactly.",
+ "checked": [
+  {
+   "run": "main|leduc|br|s1|lr0.05|G8|kl0.0|std|uniform|D32|K0|R1",
+   "identical_curve": true,
+   "final_now": 44.97346178753184,
+   "final_saved": 44.97346178753184
+  },
+  {
+   "run": "main|leduc|selfplay|s1|lr0.05|G8|kl0.0|std|uniform|D32|K0|R1",
+   "identical_curve": true,
+   "final_now": 984.7779551449705,
+   "final_saved": 984.7779551449705
+  },
+  {
+   "run": "main|kuhn|br|s0|...",
+   "identical_curve": true
+  },
+  {
+   "run": "main|kuhn|exact|s0|...",
+   "identical_curve": true
+  },
+  {
+   "run": "main|kuhn|selfplay|s0|...",
+   "identical_curve": true
+  }
+ ]
+}

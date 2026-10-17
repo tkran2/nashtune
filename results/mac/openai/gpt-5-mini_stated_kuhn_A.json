@@ -1,0 +1,46 @@
+{
+ "label": "gpt-5-mini_stated_kuhn_A",
+ "kind": "openai",
+ "model": "gpt-5-mini",
+ "mode": "stated",
+ "game": "kuhn",
+ "template": "A",
+ "max_completion_tokens": 2000,
+ "reasoning_effort": "low",
+ "expected_output_tokens": 500,
+ "price_per_mtok": {
+  "input": 0.25,
+  "output": 2.0
+ },
+ "backend": "openai",
+ "samples": 1,
+ "top_logprobs": 20,
+ "infosets": 12,
+ "exploitability_ma": 101.85184908888888,
+ "seat0_ma": 148.14814815555556,
+ "seat1_ma": 55.555550022222235,
+ "value": -0.07407407407592592,
+ "best_vs_p1": -5.533333319318601e-09,
+ "best_vs_p0": 0.2037037037111111,
+ "game_value": -0.05555555555555555,
+ "uniform_exploitability_ma": 458.33333333333326,
+ "extraction_seconds": 180.07766127586365,
+ "nashtune_version": "0.1.0",
+ "finished_utc": "2026-10-16T11:29:00Z",
+ "totals": {
+  "invalid": 0,
+  "fallback_uniform": 0
+ },
+ "usage": {
+  "requests": 12,
+  "cache_hits": 0,
+  "prompt_tokens": 2085,
+  "completion_tokens": 2402,
+  "reasoning_tokens": 2112,
+  "total_tokens": 4487,
+  "retries": 1,
+  "adjustments": [
+   "gpt-5-mini: Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported. -> {'drop': 'temperature'}"
+  ]
+ }
+}

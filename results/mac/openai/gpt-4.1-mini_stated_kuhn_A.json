@@ -1,0 +1,44 @@
+{
+ "label": "gpt-4.1-mini_stated_kuhn_A",
+ "kind": "openai",
+ "model": "gpt-4.1-mini",
+ "mode": "stated",
+ "game": "kuhn",
+ "template": "A",
+ "max_completion_tokens": 100,
+ "expected_output_tokens": 25,
+ "price_per_mtok": {
+  "input": 0.4,
+  "output": 1.6
+ },
+ "backend": "openai",
+ "samples": 1,
+ "top_logprobs": 20,
+ "reasoning_effort": null,
+ "infosets": 12,
+ "exploitability_ma": 201.66666666666666,
+ "seat0_ma": 181.11111111111111,
+ "seat1_ma": 222.2222222222222,
+ "value": -0.034999999999999976,
+ "best_vs_p1": 0.16666666666666666,
+ "best_vs_p0": 0.23666666666666666,
+ "game_value": -0.05555555555555555,
+ "uniform_exploitability_ma": 458.33333333333326,
+ "extraction_seconds": 81.82023978233337,
+ "nashtune_version": "0.1.0",
+ "finished_utc": "2026-10-16T11:13:59Z",
+ "totals": {
+  "invalid": 0,
+  "fallback_uniform": 0
+ },
+ "usage": {
+  "requests": 12,
+  "cache_hits": 0,
+  "prompt_tokens": 2097,
+  "completion_tokens": 168,
+  "reasoning_tokens": 0,
+  "total_tokens": 2265,
+  "retries": 0,
+  "adjustments": []
+ }
+}

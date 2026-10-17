@@ -1,0 +1,17 @@
+{
+ "_comment": "Experiment D. $CHAT_MODEL: a model that returns log-probabilities; $REASONING_MODEL: a reasoning model. Real names come from `nashtune openai-models`. Runs go in this order and stop before the budget is spent. expected_output_tokens is only used for the 'likely' cost in the dry run.",
+ "budget_usd": 4.0,
+ "runs": [
+  {"model": "$CHAT_MODEL", "mode": "logprobs", "game": "kuhn", "template": "A", "expected_output_tokens": 1},
+  {"model": "$CHAT_MODEL", "mode": "logprobs", "game": "kuhn", "template": "B", "expected_output_tokens": 1},
+  {"model": "$CHAT_MODEL", "mode": "logprobs", "game": "leduc", "template": "A", "expected_output_tokens": 1},
+  {"model": "$CHAT_MODEL", "mode": "logprobs", "game": "leduc", "template": "B", "expected_output_tokens": 1},
+  {"model": "$CHAT_MODEL", "mode": "stated", "game": "kuhn", "template": "A", "max_completion_tokens": 100, "expected_output_tokens": 25},
+  {"model": "$CHAT_MODEL", "mode": "stated", "game": "leduc", "template": "A", "max_completion_tokens": 100, "expected_output_tokens": 30},
+  {"model": "$CHAT_MODEL", "mode": "sample", "game": "kuhn", "template": "A", "samples": 20, "max_completion_tokens": 5, "expected_output_tokens": 2},
+  {"model": "$REASONING_MODEL", "mode": "sample", "game": "kuhn", "template": "A", "samples": 16, "max_completion_tokens": 2000, "reasoning_effort": "low", "expected_output_tokens": 400},
+  {"model": "$REASONING_MODEL", "mode": "stated", "game": "kuhn", "template": "A", "max_completion_tokens": 2000, "reasoning_effort": "low", "expected_output_tokens": 500},
+  {"model": "$REASONING_MODEL", "mode": "sample", "game": "kuhn", "template": "B", "samples": 16, "max_completion_tokens": 2000, "reasoning_effort": "low", "expected_output_tokens": 400},
+  {"model": "$REASONING_MODEL", "mode": "sample", "game": "leduc", "template": "A", "samples": 4, "max_completion_tokens": 2000, "reasoning_effort": "low", "expected_output_tokens": 400}
+ ]
+}

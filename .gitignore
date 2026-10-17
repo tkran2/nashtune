@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.DS_Store
+.vscode/
+.idea/
+# Training runs hold checkpoints and adapters (hundreds of MB).
+runs/
+# Console logs and result bundles.
+logs/
+nashtune_results_*.zip
+# API response cache (resumable runs) and the dynamics run cache.
+results/mac/openai/cache/
+results/dynamics/runs.jsonl
+# Your OpenAI prices file is yours to keep local if you prefer.
+configs/openai_prices.local.json

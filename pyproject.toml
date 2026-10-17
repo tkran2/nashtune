@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nashtune"
+version = "0.1.0"
+description = "Exact exploitability of language-model poker strategies, and GRPO fine-tuning with exact rewards"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Thomas Krane" }]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "requests>=2.28",
+]
+
+[project.optional-dependencies]
+# The language-model backend (Hugging Face). Install on the machine that runs models.
+hf = [
+    "torch>=2.2",
+    "transformers>=4.51,<5",
+    "peft>=0.13,<1",
+]
+
+[project.scripts]
+nashtune = "nashtune.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["nashtune*"]

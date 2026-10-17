@@ -1,0 +1,46 @@
+{
+ "label": "gpt-4.1-mini_sample_kuhn_A",
+ "kind": "openai",
+ "model": "gpt-4.1-mini",
+ "mode": "sample",
+ "game": "kuhn",
+ "template": "A",
+ "samples": 20,
+ "max_completion_tokens": 5,
+ "expected_output_tokens": 2,
+ "price_per_mtok": {
+  "input": 0.4,
+  "output": 1.6
+ },
+ "backend": "openai",
+ "top_logprobs": 20,
+ "reasoning_effort": null,
+ "infosets": 12,
+ "exploitability_ma": 154.16666666666669,
+ "seat0_ma": 111.11111111111116,
+ "seat1_ma": 197.22222222222223,
+ "value": 0.00874999999999998,
+ "best_vs_p1": 0.14166666666666666,
+ "best_vs_p0": 0.1666666666666667,
+ "game_value": -0.05555555555555555,
+ "uniform_exploitability_ma": 458.33333333333326,
+ "extraction_seconds": 13.334076881408691,
+ "nashtune_version": "0.1.0",
+ "finished_utc": "2026-10-16T11:17:59Z",
+ "totals": {
+  "valid": 240,
+  "invalid": 0,
+  "truncated": 0,
+  "fallback_uniform": 0
+ },
+ "usage": {
+  "requests": 12,
+  "cache_hits": 0,
+  "prompt_tokens": 1689,
+  "completion_tokens": 240,
+  "reasoning_tokens": 0,
+  "total_tokens": 1929,
+  "retries": 0,
+  "adjustments": []
+ }
+}

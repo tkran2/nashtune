@@ -1,0 +1,48 @@
+{
+ "label": "gpt-5-mini_sample_kuhn_A",
+ "kind": "openai",
+ "model": "gpt-5-mini",
+ "mode": "sample",
+ "game": "kuhn",
+ "template": "A",
+ "samples": 16,
+ "max_completion_tokens": 2000,
+ "reasoning_effort": "low",
+ "expected_output_tokens": 400,
+ "price_per_mtok": {
+  "input": 0.25,
+  "output": 2.0
+ },
+ "backend": "openai",
+ "top_logprobs": 20,
+ "infosets": 12,
+ "exploitability_ma": 149.08854166666669,
+ "seat0_ma": 117.62152777777779,
+ "seat1_ma": 180.55555555555554,
+ "value": 0.031901041666666685,
+ "best_vs_p1": 0.125,
+ "best_vs_p0": 0.17317708333333334,
+ "game_value": -0.05555555555555555,
+ "uniform_exploitability_ma": 458.33333333333326,
+ "extraction_seconds": 480.41925406455994,
+ "nashtune_version": "0.1.0",
+ "finished_utc": "2026-10-16T11:26:00Z",
+ "totals": {
+  "valid": 192,
+  "invalid": 0,
+  "truncated": 0,
+  "fallback_uniform": 0
+ },
+ "usage": {
+  "requests": 192,
+  "cache_hits": 0,
+  "prompt_tokens": 26832,
+  "completion_tokens": 31168,
+  "reasoning_tokens": 29248,
+  "total_tokens": 58000,
+  "retries": 0,
+  "adjustments": [
+   "gpt-5-mini: Invalid 'n': integer above maximum value. Expected a value <= 8, but got 16 instead. -> {'drop': 'n'}"
+  ]
+ }
+}

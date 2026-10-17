@@ -1,0 +1,14 @@
+{
+ "gpt-4.1-mini": {
+  "completion_tokens": 6298,
+  "prompt_tokens": 202569,
+  "reasoning_tokens": 0,
+  "requests": 912
+ },
+ "gpt-5-mini": {
+  "completion_tokens": 665523,
+  "prompt_tokens": 302685,
+  "reasoning_tokens": 649888,
+  "requests": 1548
+ }
+}

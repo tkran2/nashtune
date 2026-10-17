@@ -1,0 +1,44 @@
+{
+ "label": "gpt-4.1-mini_stated_leduc_A",
+ "kind": "openai",
+ "model": "gpt-4.1-mini",
+ "mode": "stated",
+ "game": "leduc",
+ "template": "A",
+ "max_completion_tokens": 100,
+ "expected_output_tokens": 30,
+ "price_per_mtok": {
+  "input": 0.4,
+  "output": 1.6
+ },
+ "backend": "openai",
+ "samples": 1,
+ "top_logprobs": 20,
+ "reasoning_effort": null,
+ "infosets": 288,
+ "exploitability_ma": 1222.3816666666667,
+ "seat0_ma": 1261.090242588667,
+ "seat1_ma": 1183.6730907446665,
+ "value": -0.259708732,
+ "best_vs_p1": 1.0980666666666665,
+ "best_vs_p0": 1.3466966666666669,
+ "game_value": -0.085606424078,
+ "uniform_exploitability_ma": 2373.611111111111,
+ "extraction_seconds": 226.6815791130066,
+ "nashtune_version": "0.1.0",
+ "finished_utc": "2026-10-16T11:17:45Z",
+ "totals": {
+  "invalid": 0,
+  "fallback_uniform": 0
+ },
+ "usage": {
+  "requests": 288,
+  "cache_hits": 0,
+  "prompt_tokens": 72042,
+  "completion_tokens": 5290,
+  "reasoning_tokens": 0,
+  "total_tokens": 77332,
+  "retries": 0,
+  "adjustments": []
+ }
+}

@@ -1,0 +1,5 @@
+{
+ "_comment": "USD per million tokens, from https://openai.com/api/pricing/, for the models passed to `nashtune openai-plan`. These are the prices used for the results in results/mac/openai (checked 2026-10-16); update them before a new run. The run refuses to start for a model without a price.",
+ "gpt-4.1-mini": {"input": 0.40, "output": 1.60},
+ "gpt-5-mini": {"input": 0.25, "output": 2.00}
+}

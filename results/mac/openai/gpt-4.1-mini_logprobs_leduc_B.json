@@ -1,0 +1,47 @@
+{
+ "label": "gpt-4.1-mini_logprobs_leduc_B",
+ "kind": "openai",
+ "model": "gpt-4.1-mini",
+ "mode": "logprobs",
+ "game": "leduc",
+ "template": "B",
+ "expected_output_tokens": 1,
+ "price_per_mtok": {
+  "input": 0.4,
+  "output": 1.6
+ },
+ "backend": "openai",
+ "samples": 1,
+ "top_logprobs": 20,
+ "max_completion_tokens": 1,
+ "reasoning_effort": null,
+ "infosets": 288,
+ "exploitability_ma": 1515.0089813713073,
+ "seat0_ma": 1536.7637578404765,
+ "seat1_ma": 1493.2542049021379,
+ "value": -0.23067903053715494,
+ "best_vs_p1": 1.4076477808241379,
+ "best_vs_p0": 1.6223701819184764,
+ "game_value": -0.085606424078,
+ "uniform_exploitability_ma": 2373.611111111111,
+ "extraction_seconds": 164.67871499061584,
+ "legal_mass_mean": 0.9999854012878863,
+ "legal_mass_min": 0.9994861002150622,
+ "legal_mass_median": 0.9999984386333963,
+ "nashtune_version": "0.1.0",
+ "finished_utc": "2026-10-16T11:12:37Z",
+ "totals": {
+  "fallback_uniform": 0,
+  "prefix_mass": 2.871184031497762e-05
+ },
+ "usage": {
+  "requests": 288,
+  "cache_hits": 0,
+  "prompt_tokens": 61170,
+  "completion_tokens": 288,
+  "reasoning_tokens": 0,
+  "total_tokens": 61458,
+  "retries": 0,
+  "adjustments": []
+ }
+}
